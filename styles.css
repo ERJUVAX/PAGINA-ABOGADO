@@ -1,0 +1,66 @@
+/* Degradado elegante para el fondo */
+body {
+    font-family: 'Lora', serif;  /* Fuente elegante */
+    color: #747171; /* Color de texto plata */
+    background: linear-gradient(to bottom, #020202, #957d02dd); /* Degradado de arriba hacia abajo */
+    background-attachment: fixed; /* Fijar el fondo */
+}
+
+/* Color dorado para todos los h2 */
+/* Aplica el color dorado y la fuente 'Lora' a los h2 dentro de tus secciones */
+section h2 {
+    color: #ffd700 !important;
+    font-family: 'Lora', serif !important; /* Asegurarse de que la fuente se aplique */
+}
+
+
+
+
+/* Reducir el tamaño del footer */
+footer {
+    background-color: black;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    height: auto !important;
+}
+
+/* Estilo adicional para hacer la página más elegante */
+h1, h3 {
+    font-family: 'Dancing Script', cursive; /* Mantener el estilo elegante para los títulos */
+}
+
+/* Mejorar la apariencia de los botones */
+/* Estilo para el botón personalizado */
+.custom-button {
+    background-color: #e0b000; /* Color dorado */
+    color: #020202; /* Color de texto oscuro */
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #ffd700; /* Un tono dorado más oscuro al pasar el mouse */
+    color: #fff; /* Color blanco al pasar el mouse */
+}
+
+
+/* Ajustes en los inputs para un diseño más refinado */
+.input, .textarea {
+    font-family: 'Lora', serif;  /* Fuente elegante */
+    background-color: #2a2a2a;  /* Fondo oscuro para inputs */
+    color: #fff;  /* Texto blanco */
+    border: 1px solid #ffd700;  /* Borde dorado */
+    border-radius: 5px;  /* Bordes redondeados */
+    padding: 10px;  /* Espaciado dentro de los campos */
+}
+
+/* Cambiar el color de los textos en los inputs al hacer foco */
+.input:focus, .textarea:focus {
+    border-color: #ffd700; /* Borde dorado */
+    outline: none;  /* Eliminar el borde por defecto */
+}
